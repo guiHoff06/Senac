@@ -4,7 +4,7 @@ public class Login01 {
 
 
 	
-	    // Dados de exemplo (usuários e senhas)
+	    
 	    private static String[] usuarios = {"Guilherme", "Gustavo", "Aleatorio"};
 	    private static String[] senhas = {"123", "456", "789"};
 
@@ -36,13 +36,13 @@ public class Login01 {
 	        scanner.close();
 	    }
 
-	    // Método para verificar se o usuário existe
+	    
 	    private static int verificarUsuario(String usuario) {
 	        for (int i = 0; i < usuarios.length; i++) {
 	            if (usuarios[i].equals(usuario)) {
 	                return i;
 	            }
 	        }
-	        return -1; // Retorna -1 se o usuário não existir
+	        return -1; 
 	    }
 	}
